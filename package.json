@@ -1,0 +1,22 @@
+{
+  "name": "app-capitalhum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Mariem",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^3.0.10",
+    "body-parser": "^1.19.0",
+    "data": "^0.6.1",
+    "datalize": "^0.3.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "opn": "^6.0.0",
+    "path": "^0.12.7",
+    "visibilityjs": "^2.0.2"
+  }
+}

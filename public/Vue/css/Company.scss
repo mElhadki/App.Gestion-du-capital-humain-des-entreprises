@@ -1,0 +1,80 @@
+$firstcolor:#2960BE;
+$whiteColor:#fff;
+$blackColor:#0d0d0d;
+@import 'login';
+
+.fas{
+    color: $firstcolor;
+
+}
+.container{
+    margin-top: 100px;
+   
+}
+.custyle{
+    max-width: 100%;
+}
+.pull-right{
+    background-color: $firstcolor;
+}
+.btn-xs{
+    background-color: $firstcolor;
+    &:hover{
+        background-color: #4383cc;
+    }
+}
+.container{
+     margin-left: 5px;
+     margin-top: 100px;
+     margin-right: 0px;
+     padding: 0px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+    .modal-dialog{
+        
+        max-width: 50%;
+    }
+    .modal-body{
+       display: flex;
+      
+       justify-content: center;
+       justify-items: center;
+       flex-direction: column;
+      
+       
+    }
+    .txt{
+        display: flex;  
+        }
+    textarea{
+        width: 100%;
+    }
+.btn-primary{
+    background-color: $firstcolor;
+}
+.btn-info:focus{
+    background-color: $firstcolor;
+    box-shadow:  0 0 0.2rem rgba(65, 105, 192, 0.5)
+}
+.btn-info:active{
+    background-color: $firstcolor;
+}
+.btn-info:hover{
+    background-color: #4383cc;
+}
+
+
+    

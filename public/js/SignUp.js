@@ -11,7 +11,11 @@ $(document).ready(function(){
                 success:function(response){
                     if(response.request){
                                   window.location.href="login.html"; 
+                                  
                     } 
+                else{
+                    $("#alert").css('visibility', 'visible');
+                }
 
                 },
                 error:function(){

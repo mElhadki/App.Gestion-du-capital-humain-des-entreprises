@@ -10,9 +10,12 @@ var routeAddCompany=require('./Routes/AddCompany')
 var routeAddDepartment=require('./Routes/AddNewDepartment')
 
 // Setting up the public directory
+// Configuration
+
 app.use(bodyParser.urlencoded({    //obligatoire 
     extended: true
- }));
+ }));                 
+ 
 app.use(bodyParser.json());
 
 app.use(express.static('public'))

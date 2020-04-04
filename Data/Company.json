@@ -1,1 +1,80 @@
-[{"name":"name1","local":"local1","description":"Description1","department":[{"name":"D1","boss":"Boss1","description":"Description"},{"name":"D2","boss":"jh","description":"lkrl"},{"name":"D3","boss":"Boss3","description":"ezrer"}]},{"name":"estt","local":"test","description":"Hello","department":[{"name":"D1","boss":"Boss1","description":"Description"}]},{"name":"Ayoub Barka","local":"as","description":"as","department":[{"name":"D3","boss":"Boss4","description":"Description"}]},{"name":"Name2","local":"Local2","description":"dftrerre","department":[]},{"name":"Youssef","local":"Abada","description":"kdxjfkjdkfrd","department":[{"name":"D1","boss":"Boss1","description":"jkdshfkj"}]},{"name":"Youcode","local":"Mdina Jdida","description":"Ecole","department":[{"name":"DI","boss":"AbdAziz","description":"Developement Informatique"},{"name":"RI","boss":"jkf","description":"jhfdjk"}]},{"name":"OCP","local":"Local","description":"jhjdsbjh","department":[{"name":"Dep1","boss":"Mr","description":"hgh"},{"name":"Dep2","boss":"Mr","description":"hgh"}]}]
+[{
+    "name": "Info Tech",
+    "local": "43 Boulevard Mohammed Zerktouni",
+    "description": "Societé Informatique",
+    "department": [{
+        "name": "Sécurité informatique",
+        "boss": "Mohammed Jabrane",
+        "description": " protecter les données de l’entreprises"
+    }, {
+        "name": "Département commercial",
+        "boss": "Hassan Rami",
+        "description": "Commercialisation des produits"
+    }]
+}, {
+    "name": "Vivo Energy",
+    "local": "Immeuble Zenith Ii , Sidi Mâarouf - Casablanca",
+    "description": "commerce de produits pétroliers et chimiques ",
+    "department": [{
+        "name": "Département Commercial ",
+        "boss": "Mr Tijani Oulfi",
+        "description": "commercialisation des produits "
+    }, {
+        "name": "Département Informatique",
+        "boss": "Sara El Ouzani",
+        "description": "Management des Systèmes d'Information"
+    }]
+}, {
+    "name": "AFRIQUIA GAZ",
+    "local": "Rue Ibnou El Ouennane Ain Sebaa - Aîn-Sebaâ (AR)",
+    "description": "production et distribution de gaz de pétrole liquéfié",
+    "department": [{
+        "name": "Département commercial",
+        "boss": "Sara BouAniz",
+        "description": "Commercialisation des produits"
+    }, {
+        "name": "Département Production",
+        "boss": "Othman Ben Noussari",
+        "description": "La gestion de la production"
+    }]
+}, {
+    "name": "BCNG",
+    "local": "Rue amal Ain Sebaa  (AR)",
+    "description": "centre d'affaires",
+    "department": [{
+        "name": "Département comptabilité",
+        "boss": "Faisal noussami",
+        "description": "établir  les pièces comptables"
+    }, {
+        "name": "Département informatique",
+        "boss": "Noual El Hassani",
+        "description": "informatiser les taches "
+    }]
+}, {
+    "name": "SOS COMMUNICATION",
+    "local": "7, rue Président El Bekkay, Tildi Agadir",
+    "description": "Agence de communication à service complet",
+    "department": [{
+        "name": "Département Commercial",
+        "boss": "Souad Ait Lhaj",
+        "description": "la commercialisation des produits"
+    }, {
+        "name": "Département GRH",
+        "boss": "Omar Ben Hmidat",
+        "description": "gestion du capital humain"
+    }]
+}, {
+    "name": "SOFIMED",
+    "local": "137, bd Moulay Ismaïl, 4°ét.Casablanca",
+    "description": "Fournitures des équipements industriels",
+    "department": [{
+        "name": "Département GRH",
+        "boss": "Fatimzzahra Toujani",
+        "description": "gestion du capital humain"
+    }, {
+        "name": "Département production",
+        "boss": "Mohammed Benomar",
+        "description": "Gérer la production"
+    }]
+}
+]

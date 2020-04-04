@@ -1,8 +1,6 @@
 $(document).ready(function () {
 
     //localStorage
-   
-
     if (localStorage.getItem("email") === null) {
 
         window.location.href = "login.html";
@@ -13,12 +11,12 @@ $(document).ready(function () {
 
         $("#useremail").html(localStorage.getItem("email"));
         getData();
-        $("#SaveData").click(function(){
+        $("#SaveData").click(function(){  // Recuperation des valeurs
             var name = $("#name").val();
             var local = $("#local").val();
             var description = $("#description").val();
           
-            if( name != "" && local != "" && description !=""){
+            if( name != "" && local != "" && description !=""){  // check les valeurs 
                  $.ajax({
                     url:'/AddCompany',
                     type:'post',
@@ -29,6 +27,7 @@ $(document).ready(function () {
                             getData(response);
                         }  
                     }
+                   
                 });
             }
         });  
@@ -98,8 +97,10 @@ function AddToTable(data){
                     company_Data += '</tr>';
                 });
                 $("#TableCompany").append(company_Data);
+                
 }
 
 function show(indice){ 
     localStorage.setItem("id",indice);
 }
+

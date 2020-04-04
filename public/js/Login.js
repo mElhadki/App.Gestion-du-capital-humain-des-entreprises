@@ -9,7 +9,7 @@
                  $.ajax({
                     url:'/login',
                     type:'post',
-                    data:{username:username,password:password},
+                    data:{username,password},
                     success:function(response){
                         if(response.request){
                                         // password correct
@@ -30,7 +30,8 @@
                         $("#alert").css('visibility', 'visible');
                     }
                 });
-            }else{
+            }
+            else{
                 $("#alert").css('visibility', 'visible');
             }
         });   
